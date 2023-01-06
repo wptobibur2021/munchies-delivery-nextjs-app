@@ -11,8 +11,8 @@ const BlogSection = () => {
         <div className="mb-10">
           <h2 className="text-2xl">Our Blog</h2>
         </div>
-        <div className="grid grid-cols-4 gap-10">
-          <div className="col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-10">
+          <div className="md:col-span-1 lg:col-span-1">
             <div className="mb-5">
               <Image src={blogimg1} className="w-full" alt="" />
               <div className="p-5">
@@ -38,7 +38,7 @@ const BlogSection = () => {
               </div>
             </div>
           </div>
-          <div className=" col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             <div className="mb-5">
               <Image src={blogimg3} className="w-full" alt="" />
               <div className="p-5">
@@ -52,7 +52,7 @@ const BlogSection = () => {
               </div>
             </div>
           </div>
-          <div className=" col-span-1">
+          <div className="md:col-span-1 lg:col-span-1">
             <div className="mb-5">
               <Image src={blogimg4} className="w-full" alt="" />
               <div className="p-5">

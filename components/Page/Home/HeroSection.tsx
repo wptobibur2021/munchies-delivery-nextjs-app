@@ -35,7 +35,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 py-20 px-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 py-20 px-10">
           <div>
             <div className="text-white">
               <h1 className="text-7xl leading-normal">
@@ -64,7 +64,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div>
-            <Image src={heroImg} alt="" />
+            <Image className="w-full" src={heroImg} alt="" />
           </div>
         </div>
       </div>
