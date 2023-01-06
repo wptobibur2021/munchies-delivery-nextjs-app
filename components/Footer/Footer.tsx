@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="flex justify-center text-white mt-5">
           <p>
             Design & Development by{" "}
-            <a target="_blank" href="https://www.tobibur.me">
+            <a target="_blank" href="https://www.tobibur.me" rel="noreferrer">
               Tobibur Rohman
             </a>
           </p>
