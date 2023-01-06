@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className="bg-hero-section-bg">
       <div className="container m-auto">
         <div className="grid grid-cols-8 gap-5 py-5 px-5 lg:px-0 md:px-0">
-          <div className="col-span-1 cursor-pointer">
+          <div className="col-span-1 flex items-center cursor-pointer">
             <Image src={logoImg} alt="Logo Name" />
           </div>
           <div className="col-span-6 items-center md:mt-5 lg:mt-5">
@@ -22,14 +22,14 @@ const HeroSection = () => {
               </ul>
             </div>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 lg:mt-0 md:mt-0 mt-2">
             <div className="flex text-white items-center justify-center mt-0 md:mt-6 lg:mt-6">
-              <ul className="flex flex-row mr-0 md:mr-6 lg:mr-6 text-lg font-normal space-x-3 md:space-x-8 lg:space-x-8 cursor-pointer">
+              <ul className="flex items-center mr-0 md:mr-6 lg:mr-6 text-lg font-normal space-x-3 md:space-x-8 lg:space-x-8 cursor-pointer">
                 <li>
-                  <FaSearch />
+                  <FaSearch className="text-xs lg:text-xl md:text-xl" />
                 </li>
                 <li>
-                  <FaShoppingBag />
+                  <FaShoppingBag className="text-xs lg:text-2xl md:text-xl" />
                 </li>
               </ul>
             </div>

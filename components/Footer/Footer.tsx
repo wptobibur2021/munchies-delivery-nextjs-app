@@ -4,15 +4,15 @@ import Image from "next/image";
 import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-footer-bg py-10">
+    <div className="bg-footer-bg py-5 md:py-10 lg:py-10 px-5 md:px-0 lg:px-0">
       <div className="container m-auto">
-        <div className="grid grid-cols-8 gap-5 py-5 border-b">
-          <div className="col-span-1 cursor-pointer">
+        <div className="grid grid-cols-8 gap-2 md:gap-5 lg:gap-5 py-5 border-b">
+          <div className="col-span-1 flex items-center cursor-pointer">
             <Image src={footerLogo} alt="Logo Name" />
           </div>
           <div className="col-span-6 flex items-center">
             <div className="flex text-white items-center justify-between mx-auto">
-              <ul className="flex flex-row mr-6 text-lg font-normal cursor-pointer items-center space-x-8">
+              <ul className="flex mr-0 md:mr-6 lg:mr-6 text-base md:text-lg lg:text-lg font-normal cursor-pointer items-center space-x-4 md:space-x-8 lg:space-x-8">
                 <li>Home</li>
                 <li>About</li>
                 <li>Menu</li>
@@ -23,12 +23,12 @@ const Footer = () => {
           </div>
           <div className="col-span-1">
             <div className="flex text-white items-center justify-end">
-              <ul className="flex text-lg font-normal space-x-8 cursor-pointer">
+              <ul className="flex items-center font-normal space-x-4 md:space-x-8 lg:space-x-8 cursor-pointer">
                 <li>
-                  <FaFacebookSquare className=" text-3xl" />
+                  <FaFacebookSquare className="text-xl lg:text-3xl md:text-3xl" />
                 </li>
                 <li>
-                  <FaInstagramSquare className=" text-3xl" />
+                  <FaInstagramSquare className="text-xl md:text-3xl lg:text-3xl" />
                 </li>
               </ul>
             </div>
