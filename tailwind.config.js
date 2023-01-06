@@ -10,6 +10,7 @@ module.exports = {
         "hero-section-bg": "#0C1712",
         "btn-bg": "#F3BA00",
         "feature-bg": "#F7F8FA",
+        "footer-bg": "#1AC073",
       },
       fontFamily: {
         SFProText: ["SFProText"],
