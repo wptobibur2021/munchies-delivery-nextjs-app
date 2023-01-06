@@ -6,7 +6,7 @@ import blogimg3 from "../../../public/assert/img/blog/blog_3.png";
 import blogimg4 from "../../../public/assert/img/blog/blog_4.png";
 const BlogSection = () => {
   return (
-    <div className="py-10 md:py-20 lg:py-20 px-5 md:px-0 lg:px-0">
+    <div className="py-10 md:py-20 bg-white lg:py-20 px-5 md:px-0 lg:px-0">
       <div className="container m-auto">
         <div className="mb-10">
           <h2 className="text-2xl">Our Blog</h2>

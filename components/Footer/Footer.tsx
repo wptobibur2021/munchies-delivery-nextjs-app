@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className="col-span-1">
             <div className="flex text-white items-center justify-end">
-              <ul className="flex items-center font-normal space-x-4 md:space-x-8 lg:space-x-8 cursor-pointer">
+              <ul className="flex items-center font-normal space-x-2 md:space-x-8 lg:space-x-8 cursor-pointer">
                 <li>
                   <FaFacebookSquare className="text-xl lg:text-3xl md:text-3xl" />
                 </li>

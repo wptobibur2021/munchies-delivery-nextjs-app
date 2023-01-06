@@ -11,7 +11,7 @@ const ContactSection = () => {
               <h2 className="text-2xl mb-3 font-semibold">
                 Do you have a question <br></br> or want to become a seller?
               </h2>
-              <p className=" text-xs">
+              <p className="text-xs">
                 Fill this form and our manager will contact you next 48 hours.
               </p>
             </div>
@@ -21,14 +21,14 @@ const ContactSection = () => {
                   <input
                     type="text"
                     placeholder="Your name"
-                    className="rounded-lg w-full text-searchText block shadow-sm py-3 px-5"
+                    className="rounded-lg bg-white w-full text-searchText block shadow-sm py-3 px-5"
                   />
                 </div>
                 <div className="w-full">
                   <input
                     type="email"
                     placeholder="Your email"
-                    className="block rounded-lg text-searchText shadow-sm w-full py-3 px-5"
+                    className="block bg-white rounded-lg text-searchText shadow-sm w-full py-3 px-5"
                   />
                 </div>
               </div>
@@ -36,7 +36,7 @@ const ContactSection = () => {
                 <textarea
                   rows={10}
                   placeholder="Your message"
-                  className="w-full shadow-sm p-5 text-searchText rounded-lg"
+                  className="w-full bg-white shadow-sm p-5 text-searchText rounded-lg"
                 />
               </div>
               <div className="mt-5 md:mt-10 lg:mt-10">
