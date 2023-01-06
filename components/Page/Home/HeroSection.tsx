@@ -7,13 +7,13 @@ const HeroSection = () => {
   return (
     <div className="bg-hero-section-bg">
       <div className="container m-auto">
-        <div className="grid grid-cols-8 gap-5 py-5">
+        <div className="grid grid-cols-8 gap-5 py-5 px-5 lg:px-0 md:px-0">
           <div className="col-span-1 cursor-pointer">
             <Image src={logoImg} alt="Logo Name" />
           </div>
-          <div className="col-span-6 flex items-center">
-            <div className="flex text-white items-center justify-between mx-auto">
-              <ul className="flex flex-row mr-6 text-lg font-normal cursor-pointer items-center space-x-8">
+          <div className="col-span-6 items-center md:mt-5 lg:mt-5">
+            <div className="flex text-white items-center justify-center">
+              <ul className="flex flex-row mr-0 md:mr-6 lg:mr-6 text-base md:text-lg lg:text-lg font-normal cursor-pointer items-center space-x-2 md:space-x-8 lg:space-x-8">
                 <li>Home</li>
                 <li>About</li>
                 <li>Menu</li>
@@ -23,8 +23,8 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="col-span-1">
-            <div className="flex text-white items-center justify-center mt-6">
-              <ul className="flex flex-row mr-6 text-lg font-normal space-x-8 cursor-pointer">
+            <div className="flex text-white items-center justify-center mt-0 md:mt-6 lg:mt-6">
+              <ul className="flex flex-row mr-0 md:mr-6 lg:mr-6 text-lg font-normal space-x-3 md:space-x-8 lg:space-x-8 cursor-pointer">
                 <li>
                   <FaSearch />
                 </li>
@@ -42,11 +42,11 @@ const HeroSection = () => {
                 Authentic Home food in UK
               </h1>
               <p className="text-base mt-2 md:mt-4 lg:mt-4">
-                What2Eat is a courier service in which authentic home cook
-                <br></br> food is delivered to a customer.
+                What2Eat is a courier service in which authentic home cook food
+                is delivered to a customer.
               </p>
             </div>
-            <div className="mt-5 lg:mt-10 md:mt-10 w-80">
+            <div className="mt-5 lg:mt-10 md:mt-10 w-full md:w-80 lg:w-80">
               <div className="relative">
                 <input
                   type="search"
