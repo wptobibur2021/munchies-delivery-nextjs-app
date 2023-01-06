@@ -58,11 +58,11 @@ const FeatureSection = () => {
               </div>
               <div className="flex justify-between items-center">
                 <div className="flex justify-between space-x-4">
-                  <div className="flex justify-between items-center bg-feature-bg py-1 px-2 rounded">
+                  <div className="flex justify-between items-center text-black bg-feature-bg py-1 px-2 rounded">
                     <FaStar className="mr-1" />
                     <p>4.7</p>
                   </div>
-                  <div className="bg-feature-bg p-1 px-2 rounded">
+                  <div className="bg-feature-bg text-black p-1 px-2 rounded">
                     <p>50-79 min</p>
                   </div>
                 </div>
@@ -83,11 +83,11 @@ const FeatureSection = () => {
               </div>
               <div className="flex justify-between items-center">
                 <div className="flex justify-between space-x-4">
-                  <div className="flex justify-between items-center bg-feature-bg py-1 px-2 rounded">
+                  <div className="flex justify-between text-black items-center bg-feature-bg py-1 px-2 rounded">
                     <FaStar className="mr-1" />
                     <p>4.7</p>
                   </div>
-                  <div className="bg-feature-bg p-1 px-2 rounded">
+                  <div className="bg-feature-bg text-black p-1 px-2 rounded">
                     <p>50-79 min</p>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const FeatureSection = () => {
               <Image className="w-full" src={proImg4} alt="" />
             </div>
             <div className="p-3">
-              <div className="flex justify-between mb-5">
+              <div className="flex justify-between mb-5 text-black">
                 <h4 className="text-base font-normal">Home made pizza</h4>
                 <h4 className="text-base font-normal">$19</h4>
               </div>

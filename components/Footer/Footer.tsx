@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className="col-span-6 flex items-center">
             <div className="flex text-white items-center justify-between mx-auto">
-              <ul className="flex mr-0 md:mr-6 lg:mr-6 text-base md:text-lg lg:text-lg font-normal cursor-pointer items-center space-x-4 md:space-x-8 lg:space-x-8">
+              <ul className="flex mr-0 md:mr-6 lg:mr-6 text-base md:text-lg lg:text-lg font-normal cursor-pointer items-center space-x-2 md:space-x-8 lg:space-x-8">
                 <li>Home</li>
                 <li>About</li>
                 <li>Menu</li>
