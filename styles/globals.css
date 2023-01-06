@@ -6,6 +6,19 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "SFProText";
+  src: local("SFProText"),
+    url(../public/assert/fonts/sf/SFProText-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"),
+    url(../public/assert/fonts/gilroy/Gilroy-Medium.ttf) format("ttf");
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -14,7 +27,9 @@ a {
 * {
   box-sizing: border-box;
 }
-
+*:focus {
+  outline: none;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
