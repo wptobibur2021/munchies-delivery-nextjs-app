@@ -34,8 +34,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-white mt-5">
-          <p>
+        <div className="flex justify-center mt-5">
+          <p className="text-white">
             Design & Development by{" "}
             <a target="_blank" href="https://www.tobibur.me" rel="noreferrer">
               Tobibur Rohman
