@@ -3,7 +3,7 @@ import contactImg from "../../../public/assert/img/contact-img.png";
 import Image from "next/image";
 const ContactSection = () => {
   return (
-    <div className="py-20 bg-feature-bg">
+    <div className="py-10 md:py-20 lg:py-20 px-5 md:px-0 lg:px-0 bg-feature-bg">
       <div className="container m-auto">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
           <div>
@@ -39,7 +39,7 @@ const ContactSection = () => {
                   className="w-full shadow-sm p-5 text-searchText rounded-lg"
                 />
               </div>
-              <div className="mt-10">
+              <div className="mt-5 md:mt-10 lg:mt-10">
                 <button
                   type="submit"
                   className="rounded-lg font-semibold text-white bg-btn-bg py-3 px-5 "

@@ -35,18 +35,18 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 py-20 px-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-0 md:gap-20 lg:gap-20 py-10 md:py-20 lg:py-20 px-5 md:px-10 lg:px-10">
           <div>
             <div className="text-white">
-              <h1 className="text-7xl leading-normal">
+              <h1 className="text-3xl md:text-7xl lg:text-7xl leading-normal">
                 Authentic Home food in UK
               </h1>
-              <p className="text-base mt-4">
+              <p className="text-base mt-2 md:mt-4 lg:mt-4">
                 What2Eat is a courier service in which authentic home cook
                 <br></br> food is delivered to a customer.
               </p>
             </div>
-            <div className="mt-10 w-80">
+            <div className="mt-5 lg:mt-10 md:mt-10 w-80">
               <div className="relative">
                 <input
                   type="search"
@@ -63,7 +63,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="md:mt-0 lg:mt-0 mt-5">
             <Image className="w-full" src={heroImg} alt="" />
           </div>
         </div>
