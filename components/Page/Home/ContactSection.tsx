@@ -8,10 +8,10 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
           <div>
             <div className="mb-10">
-              <h2 className="text-2xl text-black mb-3 font-semibold">
+              <h2 className="text-xl md:text-2xl lg:text-2xl text-black mb-3 font-semibold">
                 Do you have a question <br></br> or want to become a seller?
               </h2>
-              <p className="text-xs text-black">
+              <p className="text-sm text-black">
                 Fill this form and our manager will contact you next 48 hours.
               </p>
             </div>

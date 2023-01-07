@@ -35,16 +35,18 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-0 md:gap-20 lg:gap-20 py-10 md:py-20 lg:py-20 px-5 md:px-10 lg:px-10">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-0 md:gap-20 lg:gap-20 py-10 md:py-24 lg:py-24 px-5 md:px-10 lg:px-10">
+          <div className="mt-0 md:mt-10 lg:mt-10">
             <div className="text-white">
-              <h1 className="text-3xl md:text-7xl text-white lg:text-7xl leading-normal">
+              <h1 className="text-3xl md:text-7xl text-white lg:text-7xl md:leading-normal lg:leading-normal">
                 Authentic Home food in UK
               </h1>
-              <p className="text-base mt-2 text-white md:mt-4 lg:mt-4">
-                What2Eat is a courier service in which authentic home cook food
-                is delivered to a customer.
-              </p>
+              <div className="w-96">
+                <p className="text-base mt-2 text-white md:mt-4 lg:mt-4">
+                  What2Eat is a courier service in which authentic home cook
+                  food is delivered to a customer.
+                </p>
+              </div>
             </div>
             <div className="mt-5 lg:mt-10 md:mt-10 w-full md:w-80 lg:w-80">
               <div className="relative">
