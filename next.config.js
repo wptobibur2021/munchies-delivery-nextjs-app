@@ -17,9 +17,6 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
     domains: ["munchiesprod.s3.ap-southeast-1.amazonaws.com"],
   },
-  experimental: {
-    appDir: true,
-  },
 };
 
 module.exports = nextConfig;
