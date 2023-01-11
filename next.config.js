@@ -2,15 +2,23 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  // images: {
+  //   formats: ["image/avif", "image/webp"],
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "munchiesprod.s3.ap-southeast-1.amazonaws.com",
+  //       port: "",
+  //       pathname: "/image/upload/**",
+  //     },
+  //   ],
+  // },
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "munchiesprod.s3.ap-southeast-1.amazonaws.com",
-        port: "",
-        pathname: "/account123/**",
-      },
-    ],
+    formats: ["image/avif", "image/webp"],
+    domains: ["munchiesprod.s3.ap-southeast-1.amazonaws.com"],
+  },
+  experimental: {
+    appDir: true,
   },
 };
 

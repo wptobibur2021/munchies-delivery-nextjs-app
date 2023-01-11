@@ -4,11 +4,11 @@ import { FaStar, FaPlus } from "react-icons/fa";
 import proImg2 from "../../../public/assert/img/product/pro_2.png";
 const ProductSingle = ({ product }: { product: Product }) => {
   const { name, image, price } = product;
-  console.log("product: ", product);
   return (
     <div className="rounded-lg shadow-lg bg-white">
       <div>
-        <Image className="w-full" src={proImg2} alt="" />
+        <img className="w-full proImg rounded-t-lg" src={image} />
+        {/* <Image src={image} width={410} height={250} alt={name} /> */}
       </div>
       <div className="p-3">
         <div className="flex justify-between mb-5">

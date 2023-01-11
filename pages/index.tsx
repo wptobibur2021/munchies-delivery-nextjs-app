@@ -27,7 +27,7 @@ export default function Home({ productItems }: { productItems: Product[] }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await axios.get("https://munchies-api.up.railway.app/products");
   return {
     props: { productItems: res.data },
